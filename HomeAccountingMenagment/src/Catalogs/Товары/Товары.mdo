@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a145653-ecad-47c2-abf8-1147e244c107">
+  <producedTypes>
+    <objectType typeId="3ecaff5b-3cb9-4d7f-a1aa-07b4efbdcb95" valueTypeId="d039f3c5-d1bb-46e2-8ffe-597bb5685011"/>
+    <refType typeId="c33874ba-20bf-44e7-a454-0b5a17246617" valueTypeId="63796c81-c480-46b4-9bce-ce8779b60fca"/>
+    <selectionType typeId="8c242a7a-d0e1-4c3a-a829-73c585ba16be" valueTypeId="cf96ba0b-c42b-4ce8-89ed-f7065e350f5f"/>
+    <listType typeId="09ba58f7-5a5d-4dbb-83f5-12c0c3b87ec8" valueTypeId="db2fe28a-bcbc-4e17-8e75-bd19755bf8ea"/>
+    <managerType typeId="2c6ef863-c5a2-4121-8670-25a85b1a3af2" valueTypeId="ec748b91-aa18-4ff3-b90b-e52eb8ef5e09"/>
+  </producedTypes>
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Товары.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Товары.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2f0d338d-44ef-4a81-addf-c82143441c9d">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ед. изм.</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

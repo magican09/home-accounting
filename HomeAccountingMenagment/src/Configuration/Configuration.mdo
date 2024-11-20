@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a90fa364-2204-4ade-a61b-c2b17ce6db34">
+  <name>HomeAccountingMenagment</name>
+  <synonym>
+    <key>ru</key>
+    <value>Home accounting menagment</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d520cd07-a39d-4960-ad23-3e1556c953f3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ddade10b-9fb9-438c-97cc-d61852d13515"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="05fc1e5d-bf87-47b1-b540-c47173c22956"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="abefdd95-71f7-40b6-9c79-6dd08f2b3d77"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="60bc25c0-4671-4d2f-b930-9ef9aac60be6"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0ac2b526-54ce-4167-8d3a-93643dd52cfc"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6ca1a66a-dcab-425f-80dd-ae8c7356edb2"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="b728e3e1-3049-4819-a240-486275c25a24">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.ПокупкаТоваров</documents>
+  <documents>Document.СписаниеТоваров</documents>
+  <accumulationRegisters>AccumulationRegister.ПокупкиСписания</accumulationRegisters>
+</mdclass:Configuration>
