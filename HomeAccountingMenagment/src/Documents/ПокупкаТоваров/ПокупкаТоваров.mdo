@@ -23,7 +23,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПокупкаТоваров.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ПокупкиСписания</registerRecords>
+  <registerRecords>AccumulationRegister.Затраты</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="d549c571-4764-4b54-9d50-649d8781ab7c">
@@ -46,6 +48,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="b6b82a4c-3bb6-4692-8114-9854d043fa2d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="a58385bc-3577-4d84-b54c-a9a4a67e1f5e">
     <producedTypes>
       <objectType typeId="04f7b96b-c2c8-4445-976a-8282a9aaff88" valueTypeId="1ef19edc-1947-4586-827d-1970fdce08ae"/>
